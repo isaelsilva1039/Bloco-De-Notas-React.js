@@ -1,0 +1,16 @@
+.lista-notas {
+    background-color: var(--fundo);
+    flex-grow: 3;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style-type: none;
+    padding-left: 84px;
+    padding-top: 0rem;
+  }
+  .lista-notas_item {
+    margin: 1px;
+    max-width: 240px;
+    
+    display: inline;
+    flex-direction: column;
+  }
